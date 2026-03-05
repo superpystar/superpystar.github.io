@@ -19,6 +19,17 @@ padding:20px;
 text-align:center;
 }
 
+/* Sidebar email links */
+.sidebar a {
+    color: #333333;      /* Dark gray for better readability */
+    text-decoration: none; /* Remove underline */
+    font-weight: bold;     /* Optional: make emails stand out */
+}
+
+.sidebar a:hover {
+    color: #555555;       /* Slightly lighter on hover */
+}
+
 .profile{
 width:150px;
 border-radius:50%;
