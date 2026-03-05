@@ -46,15 +46,15 @@ p {
     margin-bottom: 15px;
 }
 
-/* Sidebar Emails and Links */
+/* Sidebar Emails - white color */
 .sidebar a {
-    color: #f1c40f;        /* Gold/yellow for visibility */
-    text-decoration: none;
+    color: white;           /* Make emails white */
+    text-decoration: none;  /* Remove underline */
     font-weight: bold;
 }
 
 .sidebar a:hover {
-    color: #f39c12;        /* Slightly darker gold on hover */
+    color: #f1c40f;         /* Optional: gold on hover */
 }
 
 /* Main Content */
