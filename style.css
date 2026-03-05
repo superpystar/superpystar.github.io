@@ -77,3 +77,18 @@ ol li a, ul li a {
 ol li a:hover, ul li a:hover {
     color: #003366;
 }
+
+/* Publications */
+#publications {
+    text-align: justify;      /* Justify all text inside publications */
+}
+
+#publications li {
+    margin-bottom: 15px;      /* Space between each publication */
+}
+
+/* Optional: make publication DOIs smaller and subtle */
+#publications li a {
+    font-size: 14px;
+    text-decoration: underline;
+}
